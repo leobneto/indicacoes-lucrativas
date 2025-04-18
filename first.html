@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parceiros Shopee - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <div class="header-left">
+        <a href="home.html" class="home2-icon-index">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <span class="logo" style="font-size:25px;margin-left:70px;">Indicações Lucrativas</span>
+    </div>
+</header>
+
+    <main>
+        <div class="home-container">
+
+            <img src="images/foto-perfil.png" alt="perfil" style="border:8px solid #ff6a00;">
+            <h2 style="margin-top:30px;">Olá, bem-vinda, Rafaela!</h2>
+
+            <h2 style="margin-top:30px;">Deseja iniciar as indicações?</h2>
+
+            <button class="indicacao-btn" style="background-color:#ff6a00;color:white;font-weight:bold;margin-top:30px;">SIM, INICIAR INDICAÇÕES!</button>
+
+            <div class="decorative" style="margin-top:40px;">
+                <i class="fa-solid fa-gift"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-thumbs-up"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Modal de saque -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h3>Chave PIX</h3>
+            <input type="text" id="chave-pix" placeholder="Digite sua chave PIX">
+
+            <h3>Quantidade a ser sacada</h3>
+            <input type="number" id="quantia-saque" placeholder="Digite o valor">
+        
+            <button class="confirmar-saque" onclick="realizarSaque()">Sacar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
